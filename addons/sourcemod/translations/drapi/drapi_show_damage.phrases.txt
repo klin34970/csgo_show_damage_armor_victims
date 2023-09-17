@@ -1,0 +1,149 @@
+//**********************************************  Valid Colors	***********************************************
+
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}  *
+
+//*************************************************************************************************************
+
+
+
+"Phrases"
+
+{
+
+	"Show damage menu settings"
+	{
+		"en"			"Menu: Show Damage"
+		"fr"			"Menu: Affichage des dommages"
+		"tr"			"Menü: Hasarı Göster"
+		"ru"			"Menu: Отображения нанесенного урона"
+	}
+	"Show damage menu settings message"
+	{
+		"#format"		"{1:s}"
+		"en"			"Show Damage: {1}"
+		"fr"			"Affichage des dommages: {1}"
+		"tr"			"Hasarı Göster: {1}"
+		"ru"			"Нанесенный урон: {1}"
+	}
+	"Head"
+	{
+        "en"			"Head"
+		"fr"			"Tête"
+		"tr"			"Kafa"
+		"ru"			"Голова"
+	}
+	"Chest"
+	{
+       	"en"			"Chest"
+		"fr"			"Poitrine"
+		"tr"			"Gövde"
+		"ru"			"Грудь"
+	}
+	"Stomach"
+	{
+       	"en"			"Stomach"
+		"fr"			"Ventre"
+		"tr"			"Karın"
+		"ru"			"Желудок"
+	}
+	"Left arm"
+	{
+       	"en"			"Left arm"
+		"fr"			"Bras gauche"
+		"tr"			"Sol el"
+		"ru"			"Левая рука"
+	}
+	"Right arm"
+	{
+       	"en"			"Right arm"
+		"fr"			"Bras droit"
+		"tr"			"Sağ el"
+		"ru"			"Правая рука"
+	}
+	"Left leg"
+	{
+       	"en"			"Left leg"
+		"fr"			"Jambe gauche"
+		"tr"			"Sol ayak"
+		"ru"			"Левая нога"
+	}
+	"Right leg"
+	{
+      	"en"			"Right leg"
+		"fr"			"Jambe droite"
+		"tr"			"Sağ ayak"
+		"ru"			"Правая нога"
+	}
+	"Enabled"
+	{
+      	"en"			"Enabled"
+		"fr"			"Activé"
+		"tr"			"Açık"
+		"ru"			"Включено"
+	}
+	"Disabled"
+	{
+      	"en"			"Disabled"
+		"fr"			"Désactivé"
+		"tr"			"Kapalı"
+		"ru"			"Выключено"
+	}
+	"ShowDamage_TITLE"
+	{
+      	"en"			"Menu: Show Damage"
+		"fr"			"Menu: Notifications des dommages"
+		"tr"			"Menu: Show Damage"
+		"ru"			"Menu: Нанесенный урон"
+	}
+	"ShowDamage_HUD_MENU_TITLE"
+	{
+		"#format"		"{1:s}"
+      	"en"			"Show Damage: {1}"
+		"fr"			"Montrer les dommages: {1}"
+		"tr"			"Hasarı Göster: {1}"
+		"ru"			"Нанесенный урон: {1}"
+	}
+	"Show damage hit message body"
+	{
+		"#format"		"{1:s},{2:i},{3:i}"
+       	"en"			"<font color='#993300'>{1}</font>. \nHealth: <font color='#336600'>-{2}</font> | Armor: <font color='#0066CC'>-{3}</font>"
+		"fr"			"<font color='#993300'>{1}</font>. \nVie: <font color='#336600'>-{2}</font> | Armure: <font color='#0066CC'>-{3}</font>"
+		"tr"			"<font color='#993300'>{1}</font>. \nCan: <font color='#336600'>-{2}</font> | Zırh: <font color='#0066CC'>-{3}</font>"
+		"ru"			"<font color='#993300'>{1}</font>. \nЗдоровье: <font color='#336600'>-{2}</font> | Броня: <font color='#0066CC'>-{3}</font>"
+	}
+	"Show damage hit message"
+	{
+		"#format"		"{1:i},{2:i}"
+       	"en"		"Health: <font color='#336600'>-{1}</font> | Armor: <font color='#0066CC'>-{2}</font>"
+		"fr"			"Vie: <font color='#336600'>-{1}</font> | Armure: <font color='#0066CC'>-{2}</font>"
+		"tr"			"Can: <font color='#336600'>-{1}</font> | Zırh: <font color='#0066CC'>-{2}</font>"
+		"ru"			"Здоровье: <font color='#336600'>-{1}</font> | Броня: <font color='#0066CC'>-{2}</font>"
+	}	
+
+	"Show damage inferno"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+       	"en"			"Total <font color='#993300'>molotov</font> damage. \nVictims: <font color='#800000'>{1}</font> \nHealth: <font color='#336600'>-{2}</font> | Armor: <font color='#0066CC'>-{3}</font>"
+		"fr"			"Total des dommages de la <font color='#993300'>molotov</font>. \nVictimes: <font color='#800000'>{1}</font> \nVie: <font color='#336600'>-{2}</font> | Armure: <font color='#0066CC'>-{3}</font>"
+		"tr"			"Toplam <font color='#993300'>molotof</font> hasarı. \nEtkilenenler: <font color='#800000'>{1}</font> \nCan: <font color='#336600'>-{2}</font> | Zırh: <font color='#0066CC'>-{3}</font>"
+		"ru"			"Всего <font color='#993300'>молотов</font> нанес урона. \nЖертв: <font color='#800000'>{1}</font> \nЗдоровье: <font color='#336600'>-{2}</font> | Броня: <font color='#0066CC'>-{3}</font>"
+	}
+
+	"Show damage hegrenade"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+       	"en"			"Total <font color='#993300'>hegrenade</font> damage. \nVictims: <font color='#800000'>{1}</font> \nHealth: <font color='#336600'>-{2}</font> | Armor: <font color='#0066CC'>-{3}</font>"
+		"fr"			"Total des dommages de la <font color='#993300'>grenade</font>. \nVictimes: <font color='#800000'>{1}</font>\nVie: <font color='#336600'>-{2}</font> | Armure: <font color='#0066CC'>-{3}</font>"
+		"tr"			"Toplam <font color='#993300'>el bombası</font> hasar. \nEtkilenenler: <font color='#800000'>{1}</font> \nCan: <font color='#336600'>-{2}</font> | Zırh: <font color='#0066CC'>-{3}</font>"
+		"ru"			"Всего <font color='#993300'>граната</font> нанесла урона. \nЖертв: <font color='#800000'>{1}</font> \nЗдоровье: <font color='#336600'>-{2}</font> | Броня: <font color='#0066CC'>-{3}</font>"
+	}
+	"Show damage multiple"
+	{
+		"#format"		"{1:s},{2:i},{3:i},{4:i}"
+       	"en"			"Total <font color='#993300'>{1}</font> damage. \nVictims: <font color='#800000'>{2}</font> \nHealth: <font color='#336600'>-{3}</font> | Armor: <font color='#0066CC'>-{4}</font>"
+		"fr"			"Total des dommages <font color='#993300'>{1}</font>. \nVictimes: <font color='#800000'>{2}</font>\nVie: <font color='#336600'>-{3}</font> |  Armure: <font color='#0066CC'>-{4}</font>"
+		"tr"			"Toplam <font color='#993300'>{1}</font> hasar. \nEtkilenenler: <font color='#800000'>{2}</font> \nCan: <font color='#336600'>-{3}</font> | Zırh: <font color='#0066CC'>-{4}</font>"
+		"ru"			"Всего		<font color='#993300'>{1}</font> нанесено урона. \nЖертв: <font color='#800000'>{2}</font> \nЗдоровье: <font color='#336600'>-{3}</font> | Броня: <font color='#0066CC'>-{4}</font>"
+	}
+}
+
